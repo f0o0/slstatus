@@ -68,7 +68,7 @@ static const struct arg args[] = {
 	{ datetime, "%s",           "%F %T" },
  	{ cpu_perc, "[CPU %s%%]", NULL },
  	{ ram_perc, "[RAM %s%%]", NULL },
-	{ disk_used, "%.4s% GiB", "/" },
+	{ disk_used, "%.4s%", "/" },
 	{ disk_total, "%.4s GiB", "/" },
 	{ battery_perc, "[ %s%%]", NULL },
  	{ wifi_essid, "[%s]", "wlan0" },
