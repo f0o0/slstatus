@@ -73,6 +73,6 @@ static const struct arg args[] = {
 	{ battery_perc, "[ %s%%]", NULL },
  	{ wifi_essid, "[%s]", "wlan0" },
  	{ wifi_perc, "[(%s%%])", "wlan0" },
- 	{ ipv4, "[i%s]", "em0" },
+ 	{ ipv4, "[i %s]", "em0" },
  	{ ipv4, "[ %s]", "wlan0" },
 };
