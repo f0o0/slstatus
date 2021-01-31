@@ -69,8 +69,4 @@ static const struct arg args[] = {
  	{ cpu_perc, "[CPU %s%%]", NULL },
  	{ ram_perc, "[RAM %s%%]", NULL },
 	{ battery_perc, "[ %s%%]", NULL },
- 	{ ipv4, "%s%", interface name (em0) },
- 	{ ipv6, "%s%", interface name (em0) },
- 	{ wifi_essid, "%s%", interface name (wlan0)},
- 	{ wifi_perc, " %s%%", interface name (wlan0)},
 };
