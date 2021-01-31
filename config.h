@@ -75,5 +75,4 @@ static const struct arg args[] = {
  	{ wifi_perc, "[(%s%%])", "wlan0" },
  	{ ipv4, "[i%s]", "em0" },
  	{ ipv4, "[ %s]", "wlan0" },
- 	{ ipv6, "[%s]", "em0" },
 };
